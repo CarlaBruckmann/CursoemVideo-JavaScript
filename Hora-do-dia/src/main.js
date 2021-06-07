@@ -3,7 +3,7 @@ function carregar(){
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-
+    
 
     if(hora >= 0 && hora < 12){
         img.src = 'assets/img/foto-manha.png'
