@@ -9,6 +9,6 @@
 #### 🌎  *[CodePen - Hora do dia](https://codepen.io/carlabruckmann/full/LYWrYgv)* 
 
 [Preview - Hora do Dia]
-<img src="" alt="preview project Hora do dia" width="100%"/>
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-Exercicio1-HoradoDia.png?raw=true" alt="preview project Hora do dia" width="100%"/>
 
 <br>
