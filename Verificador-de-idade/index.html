@@ -7,35 +7,39 @@
     <title>Verificador de Idade</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
-
   <body>
-    <header>
-      <h1>Verificador de Idade</h1>
-    </header>
-
-    <section>
-      <div>
-        <p>Ano de Nascimento
-          <input type="number" name="txtano" id="txtano" min="0">
-        </p>
-
-        <p>Sexo:
-          <input type="radio" name="radsex" id="fem" checked>
-          <label for="fem">Feminino</label>
-          <input type="radio" name="radsex" id="masc">
-          <label for="masc">Masculino</label>
-        </p>
-        <p>
-          <input type="button" value="Verificar" onclick="verificar()">
-        </p>
-      </div>
-      <div id="res">
-        Preencha os dados acima para ver o resultado!
-      </div>
-    </section>
-
+    <div class="wrapper">
+      <header>
+        <h1>Verificador de Idade</h1>
+      </header>
+      <form>
+        <div>
+          <legend>Ano de Nascimento:</legend>
+          <input type="number" name="txtano" id="txtano" min="0" />
+        </div>
+        <div>
+          <legend>Sexo:</legend>
+          <input type="radio" class="radio" name="radsex" id="fem" checked />
+          <label class="radio-label radio-1" for="fem">Feminino</label>
+          <input type="radio" class="radio" name="radsex" id="masc" />
+          <label class="radio-label radio-2" for="masc">Masculino</label>
+        </div>
+        <div>
+          <p>
+            <input
+              type="button"
+              id="btn"
+              value="Verificar"
+              onclick="verificar()"
+            />
+          </p>
+        </div>
+      </form>
+      <section class="wrapper-res">
+        <div id="res">Preencha os dados acima para ver o resultado!</div>
+      </section>
+    </div>
     <footer>&copy; CursoemVídeo</footer>
-
     <script src="src/main.js"></script>
   </body>
 </html>
