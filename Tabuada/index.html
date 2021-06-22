@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="wrapper connections">
+      <section class="d-flex-section">
+        <header>
+          <h1>Tabuada</h1>
+        </header>
+        <form>
+          <div>
+            <label for="txtn">Número:</label>
+            <input type="number" name="txtn" id="txtn" />
+          </div>
+          <div class="d-flex-section">
+            <input type="button" id="btn" value="Gerar" onclick="multiplicar()" />
+          </div>
+          <div class="d-flex-section">
+            <select name="tabuada" id="seltab" size="10">
+              <option>Digite um número acima.</option>
+            </select>
+          </div>
+        </form>
+      </section>
+      <footer>&copy; Carla Bruckmann</footer>
+      <script src="src/main.js"></script>
+    </div>
+  </body>
+</html>
