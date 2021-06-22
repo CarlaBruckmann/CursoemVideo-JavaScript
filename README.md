@@ -24,3 +24,12 @@
 <br>
 <br>
 
+### :dart: Exercício 3 - `Vamos Contar`. 
+#### 🌎  *[CodePen - Vamos Contar](https://codepen.io/carlabruckmann/full/poemPMy)* 
+
+[Preview - Vamos Contar]
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-Exercicio03-VamosContar.png?raw=true" alt="preview project Hora do dia" width="100%"/>
+
+<br>
+<br>
+
