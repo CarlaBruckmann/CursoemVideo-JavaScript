@@ -49,6 +49,11 @@ form input {
   border: 1px solid #ffffff;
   padding: 5px 0 5px 10px;
 }
+a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #302f2f;
+}
 #btn {
   padding: 8px 20px;
   border: solid 1px;
@@ -57,7 +62,7 @@ form input {
   margin-bottom: 30px;
   cursor: pointer;
 }
-#btn:hover {
+#btn:hover, a:hover {
   transform: scale(1.1);
 }
 #res{
@@ -71,7 +76,6 @@ form input {
   justify-content: space-between;
   margin: 20px 0;
 }
-
 .title-section {
   background-color: rgba(255, 255, 255, 0.267);
 }
