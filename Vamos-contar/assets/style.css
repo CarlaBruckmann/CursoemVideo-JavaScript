@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  --font-title: 24px;
+  --font-text: 18px;
+  --background-rainbow: linear-gradient(
+    90.06deg,
+    #6cdeff 0.18%,
+    #acfeea 32.92%,
+    #fee7d4 62.02%,
+    #ffb3c8 90.07%
+  );
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: var(--background-rainbow);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Overpass";
+  color: #302f2f;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: var(--font-title);
+  font-weight: bold;
+  padding: 30px 0;
+}
+label,
+input {
+  font-size: var(--font-text);
+  font-weight: normal;
+  color: #302f2f;
+}
+label {
+  padding-right: 5px;
+}
+input:focus {
+  outline: none;
+}
+form input {
+  background: #e4e3e3;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  padding: 5px 0 5px 10px;
+}
+#btn {
+  padding: 8px 20px;
+  border: solid 1px;
+  border-image: conic-gradient(#fee7d4, #ffb3c8, #6cdeff, #acfeea) 1;
+  background: #ffffff;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+#btn:hover {
+  transform: scale(1.1);
+}
+#res{
+  margin: 10px 0;
+  font-size: var(--font-text);
+  max-width: 205px;
+}
+.d-flex-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.title-section {
+  background-color: rgba(255, 255, 255, 0.267);
+}
+.d-flex-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-section {
+  background: rgba(255, 255, 255, 0.34);
+  border: 2px solid #fffdfd;
+  border-radius: 0px 30px 0px 0px;
+  padding: 30px;
+}
