@@ -116,8 +116,11 @@ legend {
 #foto {
   margin-top: 30px;
 }
-footer {
-  padding: 15px;
-  font-weight: 300;
-  color: var(--blue-dark);
+a {
+  margin: 10px;
+  color: var(--red);
+}
+a:hover {
+  transform: scale(1.1);
+  color: var(--blue-light);
 }
