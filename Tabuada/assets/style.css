@@ -24,13 +24,13 @@ section {
 div {
   margin: 25px 0;
 }
-h1 {
+h1,
+a {
   font-weight: 400;
   font-size: 28px;
 }
 label,
-input,
-footer {
+input {
   font-weight: 300;
   font-size: 18px;
 }
@@ -39,7 +39,6 @@ select {
   border: 1px solid #00a97f;
   border-radius: 6px;
   overflow: visible;
-  /* verificar s efunciona */
 }
 input:focus,
 select:focus {
@@ -54,6 +53,14 @@ option {
   padding: 5px 5px 2px 5px;
   border-radius: 6px;
 }
+a {
+  margin: 10px;
+  color: #ffff;
+}
+a:hover {
+  transform: scale(1.1);
+  color: #00a97f;
+}
 #txtn {
   padding: 2px 0 2px 5px;
 }
@@ -62,6 +69,9 @@ option {
   cursor: pointer;
   background: #515554;
   color: #ffff;
+}
+#btn:hover {
+  transform: scale(1.1);
 }
 .d-flex-section {
   display: flex;
@@ -77,14 +87,13 @@ option {
   --connections-linkRadius: 150;
   background-image: paint(connections);
 }
-
-@media screen and (max-width: 1350px){
-    .connections{
-        --connections-linkRadius: 100;
-    }
+@media screen and (max-width: 1350px) {
+  .connections {
+    --connections-linkRadius: 100;
+  }
 }
-@media screen and (max-width: 815px){
-    .connections{
-        --connections-linkRadius: 60;
-    }
+@media screen and (max-width: 815px) {
+  .connections {
+    --connections-linkRadius: 60;
+  }
 }
