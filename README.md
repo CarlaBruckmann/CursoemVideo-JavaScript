@@ -10,7 +10,7 @@
 #### 🌎  *[CodePen - Hora do dia](https://codepen.io/carlabruckmann/full/LYWrYgv)* 
 
 [Preview - Hora do Dia]
-<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-Exercicio1-HoradoDia.png?raw=true" alt="preview project Hora do dia" width="100%"/>
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-ex01-hora-do-dia.png?raw=true" alt="preview project Hora do dia" width="100%"/>
 
 <br>
 <br>
@@ -19,7 +19,7 @@
 #### 🌎  *[CodePen - Verificador de Idade](https://codepen.io/carlabruckmann/full/GRWXKWv)* 
 
 [Preview - Verificador de Idade]
-<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-Exercicio02-VerificadordeIdade.png?raw=true" alt="preview project Hora do dia" width="100%"/>
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-ex02-verificador-de-idade.png?raw=true" alt="preview project Verificador de Idade" width="100%"/>
 
 <br>
 <br>
@@ -28,7 +28,16 @@
 #### 🌎  *[CodePen - Vamos Contar](https://codepen.io/carlabruckmann/full/poemPMy)* 
 
 [Preview - Vamos Contar]
-<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-Exercicio03-VamosContar.png?raw=true" alt="preview project Hora do dia" width="100%"/>
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-ex03-vamos-contar.png?raw=true" alt="preview project Vamos Contar" width="100%"/>
+
+<br>
+<br>
+
+### :dart: Exercício 4 - `Tabuada`. 
+#### 🌎  *[CodePen - Tabuada](https://codepen.io/carlabruckmann/full/qBrGzvL)* 
+
+[Preview - Tabuada]
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-ex04-tabuada.png?raw=truee" alt="preview project Tabuada" width="100%"/>
 
 <br>
 <br>
