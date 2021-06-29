@@ -1,1 +1,52 @@
-style
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+h1{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+}
+p, label, select, option{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wrapper {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  color: black;
+  margin: 0;
+}
+.confettis {
+  background: paint(extra-confetti);
+
+  --extra-confettiNumber: 300; /* defaults to 30 */
+  --extra-confettiLengthVariance: 15; /* Defaults to 15 */
+  --extra-confettiWeightVariance: 3; /* Defaults to 4 */
+}
+select, input{
+    border: solid 1px #FFAC34;
+}
+.btn{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #FFAC34;
+    border-radius: 0 10px;
+    padding: 0 10px;
+}
+a {
+    font-size: 24px;
+    color: #FFAC34; 
+    margin: 0 10px;
+}
