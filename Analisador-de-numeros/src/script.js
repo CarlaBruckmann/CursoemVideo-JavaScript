@@ -52,6 +52,7 @@ function finalizar() {
             }
         }
         média = soma / total
+        res.innerHTML = ''
         res.innerHTML += `Ao todo, temos ${total} números cadastrados.<br>`
         res.innerHTML += `O maior número informado foi ${maior}.<br>`
         res.innerHTML += `O menor número informado foi ${menor}.<br>`
