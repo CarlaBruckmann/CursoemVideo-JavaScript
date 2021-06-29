@@ -1,1 +1,77 @@
-index
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="wrapper confettis">
+      <section>
+        <header>
+          <h1>Analisador de Números</h1>
+        </header>
+        <form>
+          <div>
+            <label for="fnum">Número (entre 1 e 100):</label>
+            <input type="number" name="fnum" id="fnum" />
+            <input
+              type="button"
+              id="btn1"
+              value="Adicionar"
+              onclick="adicionar()"
+            />
+          </div>
+          <div>
+            <select name="lista" id="flista" size="10">
+            </select>
+          </div>
+          <div>
+             <input
+              type="button"
+              id="btn2"
+              value="Finalizar"
+              onclick="finalizar()"
+            /> 
+          </div>
+        </form>
+        <div>
+            <p id="res"></p>
+          </div>
+      </section>
+      <footer>
+        <a
+          title="GitHub"
+          target="_blank"
+          href="https://github.com/CarlaBruckmann"
+          class="fab fa-github"
+        ></a>
+        <a
+          title="Linkedin"
+          target="_blank"
+          href="https://www.linkedin.com/in/carla-bruckmann-271576ba/"
+          class="fab fa-linkedin"
+        ></a>
+        <a
+          title="CodePen"
+          target="_blank"
+          href="https://codepen.io/carlabruckmann"
+          class="fab fa-codepen"
+        ></a>
+        <a
+          title="Free Code Camp"
+          target="_blank"
+          href="https://www.freecodecamp.org/carlabruckmann"
+          class="fab fa-free-code-camp"
+        ></a>
+      </footer>
+      <script src="src/script.js"></script>
+      <script
+        src="https://kit.fontawesome.com/ec6c9f4d17.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
