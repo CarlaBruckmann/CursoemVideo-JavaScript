@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 
 * {
   padding: 0;
@@ -7,17 +7,19 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-h1{
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 24px;
-    margin-bottom: 30px;
-
+h1 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
 }
-p, label, select, option{
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 18px;
+p,
+label,
+select,
+option {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 18px;
 }
 input:focus,
 select:focus {
@@ -39,66 +41,67 @@ select:focus {
   --extra-confettiLengthVariance: 15; /* Defaults to 15 */
   --extra-confettiWeightVariance: 3; /* Defaults to 4 */
 }
-section{
-    background-color: white;
-    border: solid 1px #0000CA;
-    border-radius: 0 20px;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
+section {
+  background-color: white;
+  border: solid 1px #0000ca;
+  border-radius: 0 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
 }
-div{
-    margin-bottom: 20px;
+div {
+  margin-bottom: 20px;
 }
-select, input{
-    border: solid 1px #FFAC34;
-    
+select,
+input {
+  border: solid 1px #ffac34;
 }
-select{
-    width: 100%;
-    background-color: #ffbe6221;
+select {
+  width: 100%;
+  background-color: #ffbe6221;
 }
-#fnum{
-    width: 90px;
-    padding: 3px;
-    background-color: #ffbe6221;
+#fnum {
+  width: 90px;
+  padding: 3px;
+  background-color: #ffbe6221;
 }
-.btn{
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
-    font-size: 18px;
-    background-color: #FFAC34;
-    border-radius: 0 10px;
-    padding: 5px 10px;
+.btn {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ffac34;
+  border-radius: 0 10px;
+  padding: 5px 10px;
 }
-.btn:hover, a:hover{
-    transform: scale(1.05);
-    transition: 0.1s ease-in-out;
+.btn:hover,
+a:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
 }
-.wrapper-button-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-bottom: 30px;
+.wrapper-button-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 30px;
 }
-.wrapper-button-2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.wrapper-button-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.wrapper-res{
- display: flex;
- align-items: center;
- margin-top: 20px;
+.wrapper-res {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 a {
-    font-size: 24px;
-    color: #FFAC34; 
-    margin: 0 10px;
+  font-size: 24px;
+  color: #ffac34;
+  margin: 0 10px;
 }
-a:hover{
-    color: #0000CA;
+a:hover {
+  color: #0000ca;
 }
