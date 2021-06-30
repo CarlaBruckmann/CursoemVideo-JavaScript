@@ -63,6 +63,9 @@ select {
   width: 100%;
   background-color: #ffbe6221;
 }
+option{
+  padding: 2px 5px; 
+}
 #fnum {
   width: 90px;
   padding: 3px;
