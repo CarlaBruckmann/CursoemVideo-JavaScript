@@ -42,3 +42,11 @@
 <br>
 <br>
 
+### :dart: Exercício 5 - `Analisador de Números`. 
+#### 🌎  *[CodePen - Analisador de Números](https://codepen.io/carlabruckmann/full/qBmEaWm)* 
+
+[Preview - Analisador de Números]
+<img src="https://github.com/CarlaBruckmann/CursoemVideo-JavaScript/blob/master/previews/preview-ex05-Analisador-de-numeros.png?raw=true" alt="preview project Analisador de Números" width="100%"/>
+
+<br>
+<br>
